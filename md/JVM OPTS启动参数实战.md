@@ -87,24 +87,24 @@ JAVA_OPTS=" $JAVA_OPTS
 
 内容配置在 /etc/init.d/ 目录下，最终通过命令 service 来启动。
 
-下面以project为`lyancafe-app-activity`举例说明。
+下面以project为`micro-service`举例说明。
 
 e.g. 
 
 ```
-service lyancafa-app-activity restart
+service micro-service restart
 ```
 
 ```
-cat /etc/init.d/lyancafe-app-activity
+cat /etc/init.d/micro-service
 
 #!/bin/bash
-# description: lyancafe-app-activity Start Stop Restart
-# processname: lyancafe-app-activity
+# description: micro-service Start Stop Restart
+# processname: micro-service
 # chkconfig: 234 20 80
 
 DATETIME=`date +%Y-%m-%d`
-NAME=lyancafe-app-activity
+NAME=micro-service
 JAVA_HOME=/opt/java/jdk8
 USER=root
 PROFILE=prod
