@@ -6,7 +6,7 @@
 - -Xms 设置堆最大大小
 - -Xmn 设置年轻代大小
 - -XX:NewSize=n 设置年轻代大小
-- -XX:NewRatio=n 设置年轻代和年老代的比值。默认值为2，表示年轻代与老年代内存占比 2:1
+- -XX:NewRatio=n 设置年轻代和老年代的比值。默认值为2，表示年轻代与老年代内存占比 1:2
 - -XX:SurvivorRatio=n 设置Eden与Survior大小占比。默认值为8，表示Eden:Survior1:Survior2为8:1:1
 - -XX:PermSize=n 设置持久代初识时大小（JDK1.8后被移除）
 - -XX:MaxPermSize=n 设置持久代最大大小（JDK1.8后被移除）
